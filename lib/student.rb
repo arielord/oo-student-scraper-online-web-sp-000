@@ -20,11 +20,6 @@ class Student
   def self.all
     @@all
   end
-  
-  def self.new(student_hash)
-    student = Student.new(student_hash)
-    student << @@all
-  end
 
 end
 
